@@ -1,0 +1,3 @@
+[submodule "lib/lczerolens"]
+	path = lib/lczerolens
+	url = git@github.com:hyprchs/lczerolens.git

@@ -1,0 +1,27 @@
+services:
+  lczerolens:
+    image: lczerolens:latest
+    build:
+      context: . # Context is the root of your project
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888" # Map port 8888 for Jupyter Notebook
+    volumes:
+      - ./lib/lczerolens:/app/lib/lczerolens # Mount the lczerolens library for development
+      - ./src:/app/src
+    environment:
+      - PYTHONUNBUFFERED=1
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    command:
+      - jupyter
+      - notebook
+      - --ip=0.0.0.0
+      - --allow-root
+      - --no-browser
+      - --notebook-dir=/app
+      - --NotebookApp.token=''
+      - --NotebookApp.password=''

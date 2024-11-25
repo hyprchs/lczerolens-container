@@ -1,0 +1,17 @@
+Dockerfile
+.dockerignore
+**/.git
+**/.venv/
+**/venv/
+**/.vscode/
+**/.ipynb_checkpoints/
+
+.git
+__pycache__
+*.pyc
+.pytest_cache
+*.egg-info
+*.egg
+*.log
+*.swp
+*.swo

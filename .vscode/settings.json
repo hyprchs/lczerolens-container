@@ -1,0 +1,5 @@
+{
+    "iis.configDir": "",
+    "python.analysis.supportDocstringTemplate": true,
+    "python.analysis.supportRestructuredText": true
+}

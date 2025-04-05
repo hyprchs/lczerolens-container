@@ -1,3 +1,6 @@
 [submodule "lib/lczerolens"]
 	path = lib/lczerolens
-	url = git@github.com:hyprchs/lczerolens.git
+	url = https://github.com/hyprchs/lczerolens
+[submodule "src/training_pipeline/factual-chess-qa-bench"]
+	path = src/training_pipeline/factual-chess-qa-bench
+	url = https://github.com/hyprchs/factual-chess-qa-bench

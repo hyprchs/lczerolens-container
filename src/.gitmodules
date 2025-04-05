@@ -1,0 +1,3 @@
+[submodule "training_pipeline/factual-chess-qa-bench"]
+	path = training_pipeline/factual-chess-qa-bench
+	url = https://github.com/hyprchs/factual-chess-qa-bench

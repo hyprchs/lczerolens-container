@@ -1,5 +1,7 @@
 Dockerfile
 .dockerignore
+src/
+README.md
 **/.git
 **/.venv/
 **/venv/

@@ -1,3 +1,9 @@
+##############
+# DEPRECATED #
+##############
+
+# See https://github.com/hyprchs/hyprgm_tokenizer
+
 """
 This module defines the tokenization strategy for HyprGM, a multimodal LLM designed for chess instruction.
 
